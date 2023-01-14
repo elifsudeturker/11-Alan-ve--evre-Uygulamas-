@@ -22,27 +22,77 @@
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
+            <!-- kare -->
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
                 <form>
+                    
                     <div class="mb-3">
                       <img src="images/istockphoto-1000986250-170667a.jpg" class="rounded mx-auto d-block" alt="Kare">
                     </div>
-
+                
                     <div class="mb-3">
                       <label for="karenin_kenari" class="form-label">Karenin Bir Kenarının Uzunluğunu Giriniz</label>
                       <input type="number" class="form-control" id="karenin_kenari">
                     </div>
-                
-                    <button type="submit" class="btn btn-success btn-lg" onclick="kare_hesapla()">Hesapla</button>
+                     <div class="text-center"><button type="submit" class="btn btn-success btn-lg" onclick="kare_hesapla()">Hesapla</button></div>
+                    
                 </form>
+
+                <div id="result_kare">
+
+                </div>
+            
             </div>
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Dikdörtgen</div>
-            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Daire</div>
+            <!-- dikdörtgen -->
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <form>
+                    <div class="mb-3">
+                      <img src="images/kahve_falı_dikdörtgen.gif" class="rounded mx-auto d-block" alt="Dikdörtgen">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="dikdörtgen_uzunkenar" class="form-label">Dikdörtgenin Uzun Kenarının Uzunluğunu Giriniz</label>
+                      
+                      <input type="number" class="form-control" id="dikdörtgen_uzunkenar"><br>
+
+                      <label for="dikdörtgen_kisakenar" class="form-label">Dikdörtgenin Kısa Kenarının Uzunluğunu Giriniz</label>
+
+                      <input type="number" class="form-control" id="dikdörtgen_kisakenar">
+                    </div>
+                     <div class="text-center"><button type="submit" class="btn btn-success btn-lg" onclick="dikdörtgen_hesapla()">Hesapla</button>
+                    </div>
+                    
+                </form>
+
+                <div id="result_dikdörtgen">
+
+                </div>
+            </div>
+            <!-- daire -->
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><form>
+                <div class="mb-3">
+                  <img src="images/içi-boş-yuvarlak-png-3.png" class="rounded mx-auto d-block" alt="Dikdörtgen">
+                </div>
+
+                <div class="mb-3">
+                  <label for="daire_yaricap" class="form-label">Dairenin Yarıçapını Giriniz</label>
+                  
+                  <input type="number" class="form-control" id="daire_yaricap">
+                </div>
+                 <div class="text-center"><button type="submit" class="btn btn-success btn-lg" onclick="daire_hesapla()">Hesapla</button>
+                </div>
+                
+            </form>
+
+            <div id="result_daire">
+
+            </div></div>
         </div>
     </div>
 
 
-
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

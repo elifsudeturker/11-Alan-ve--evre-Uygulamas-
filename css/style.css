@@ -1,3 +1,39 @@
+body{
+    background-color: rgb(236, 212, 180);
+}
+
 .ortala{
     text-align: center;
 }
+
+img{
+    width: 250px;
+}
+
+#result_kare{
+    font-weight: bolder;
+    margin-top: 10px;
+    color: brown;
+    font-size: 40px;
+    background-color: rgb(209, 165, 108);
+    border-radius: 10px;
+}
+
+#result_dikdörtgen{
+    font-weight: bolder;
+    margin-top: 10px;
+    color: brown;
+    font-size: 40px;
+    background-color: rgb(209, 165, 108);
+    border-radius: 10px;
+}
+
+#result_daire{
+    font-weight: bolder;
+    margin-top: 10px;
+    color: brown;
+    font-size: 40px;
+    background-color: rgb(209, 165, 108);
+    border-radius: 10px;
+}
+
